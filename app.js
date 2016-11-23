@@ -5,16 +5,16 @@ function renderRecords(data) {
   $(data.records).each(function(index, taquerias) {
     var taquerias_name = taquerias.fields['Name'];
     var taquerias_where = taquerias.fields['District'];
-    var taquerias_pics = taquerias.fields['Pictures']
-    var taquerias_info = ''
+    var taquerias_pics = taquerias.fields['Pictures'];
+    var taquerias_info = '';
     if (taquerias_name) {
-      taquerias_info += `<li>`
+      taquerias_info += `<li>`;
       if (taquerias_pics) {
         $.each(taquerias_pics, function(i, pic) {
           taquerias_info += `<img src="${pic.url}">`;
         });
       }
-      taquerias_info += ` Name: ${taquerias_name} <br> Where: ${taquerias_where}`
+      taquerias_info += ` Name: ${taquerias_name} <br> Where: ${taquerias_where}`;
       taquerias_info += `</li>`;
     }
     $('.taquerias').append(taquerias_info);
