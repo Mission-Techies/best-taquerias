@@ -7,3 +7,6 @@ h1 {
     margin: left;
     width: 40%;
 }
+.taquerias {
+  list-style: none;
+}
