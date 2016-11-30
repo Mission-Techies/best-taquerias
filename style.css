@@ -1,12 +1,12 @@
-.h1 {
+h1 {
   font-size: 80px;
   font-family: 'Merienda One', cursive;
 }
-.img {
+img {
     display: block;
     margin: left;
     width: 40%;
 }
-.taquerias {
+taquerias {
   list-style: none;
 }
