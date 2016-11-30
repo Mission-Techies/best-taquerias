@@ -23,5 +23,4 @@ function renderRecords(data) {
 
 $.get(restaurant_record, renderRecords);
 
-<div class="col-xs-4"> </div>
-<div class="col-xs-8"> </div>
+
