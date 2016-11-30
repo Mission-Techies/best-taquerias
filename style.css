@@ -7,6 +7,6 @@ img {
     margin: left;
     width: 40%;
 }
-taquerias {
-  list-style: none;
+ul{
+  list-style-type: none;
 }
