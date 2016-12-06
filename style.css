@@ -1,8 +1,9 @@
-.h1 {
+h1 {
   font-size: 80px;
   font-family: 'Merienda One', cursive;
 }
-.h2 {
+h2 {
+  text-align: center;
   font-size: 30px;
   font-family: 'Indie Flower', cursive;
 }
@@ -11,21 +12,21 @@
   text-align: center;
   font-family: 'Indie Flower', cursive;
 }
-.taco img {
+.taco {
   display: block;
   margin: auto;
-  width: 30px;
+  width: 100px;
   height: auto;
 }
-.heart img {
+.heart {
   display: block;
   margin: auto;
-  width: 30px;
+  width: 100px;
   height: auto;
 }
-.pin img {
+.pin {
   display: block;
   margin: auto;
-  width: 30px;
+  width: 100px;
   height: auto;
 }
