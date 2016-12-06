@@ -1,12 +1,33 @@
-h1 {
+.h1 {
   font-size: 80px;
   font-family: 'Merienda One', cursive;
 }
-img {
-    display: block;
-    margin: left;
-    width: 40%;
+.h2 {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
 }
-ul{
-  list-style-type: none;
+.description-text{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.img {
+    display: block;
+    border-radius: 50%;
+    width: 30%;
+}
+.taco {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.heart {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.pin {
+  display: block;
+  margin: auto;
+  width: 30%;
 }
