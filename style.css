@@ -1,11 +1,12 @@
 h1 {
   font-size: 80px;
-  font-family: 'Merienda One', cursive;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 h2 {
-  text-align: center;
+  
   font-size: 30px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Yrsa', serif;
 }
 .description-text{
   font-size: 30px;
@@ -29,4 +30,7 @@ h2 {
   margin: auto;
   width: 100px;
   height: auto;
+}
+.page-footer {
+  color:  #ff884d;
 }
