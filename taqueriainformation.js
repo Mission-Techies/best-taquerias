@@ -17,7 +17,7 @@ function renderRecords(data) {
         });
       }
       taquerias_info += ` Name: ${taquerias_name} <br> Where: ${taquerias_where}`;
-      taquerias_info += ` Address: ${taquerias_address}`;
+      taquerias_info += `<br> Address: ${taquerias_address}`;
       taquerias_info += `</li>`;
     }
     $('.taquerias').append(taquerias_info);
