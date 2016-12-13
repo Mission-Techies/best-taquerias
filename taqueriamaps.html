@@ -5,6 +5,9 @@
         
           <!-- CSS Linkage -->
       <link rel="stylesheet" href="taqueriamaps.css" type="text/css" />
+      <!-- javamaps linkage-->
+        <script type="text/javascript" charset="UTF-8" src="taqueriamaps.js"></script>
+
   
          <!-- bootstarp mobile usage friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,20 +17,6 @@
     <!-- google maps -->
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 30%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 30%;
-        width: 50%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
     </head>
     
     <body>
@@ -38,10 +27,6 @@
         <!-- Title Page Maps -->
         <h3>Tauqerias Near You</h3>
          <div id="map"></div>
-         
-         <!-- Google Maps -->
-         <div class="container">
-   <iframe src="https://www.google.com/maps/d/embed?mid=1UAapOuITj24v5PlV5pn6GNZm4zM" width="700" height="600"></iframe>
-        </div>
+         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO9Bmu58rNIQbqlT0MxdUtkwKM6wCEDEU&callback=initMap"></script>
     </body>
 </html>
