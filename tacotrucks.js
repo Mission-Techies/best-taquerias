@@ -16,8 +16,8 @@ function renderRecords(data) {
           truck_info += `<img src="${pic.url}">`;
         });
       }
-      truck_info += ` Name: ${truck_name} <br> Where: ${truck_where}`;
-      truck_info += `<br> Address: ${truck_address} <br>`;
+      truck_info += `<br> Name: ${truck_name} <br> Where: ${truck_where}<br> Address: ${truck_address} <br>`;
+      //truck_info += `<br> Address: ${truck_address} <br>`;
       truck_info += `</li>`;
     }
     $('.truck').append(truck_info);

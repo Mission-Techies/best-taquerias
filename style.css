@@ -1,3 +1,6 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
 h1 {
   font-size: 80px;
   text-align: center;
@@ -36,7 +39,4 @@ h2 {
   margin: auto;
   width: 100px;
   height: auto;
-}
-.page-footer {
-  color:  #ff884d;
 }
