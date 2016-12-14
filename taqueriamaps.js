@@ -7,4 +7,10 @@ function initMap() {
           zoom: 13,
           center: sf
         });
+        
+        var marker = new google.maps.Marker({
+          position: sf,
+          map: map
+        });
+        
   }
