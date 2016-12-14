@@ -19,13 +19,19 @@ h2 {
   width: 100px;
   height: auto;
 }
-.heart {
+.chile {
   display: block;
   margin: auto;
   width: 100px;
   height: auto;
 }
 .pin {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: auto;
+}
+.truck {
   display: block;
   margin: auto;
   width: 100px;
