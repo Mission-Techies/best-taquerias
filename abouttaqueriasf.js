@@ -1,4 +1,6 @@
 //JavaScript File
+
+/*
 var api_key = 'keyjUyqxvapBphwo4';
 var about_record = 'https://api.airtable.com/v0/appSrgke7E0ElZhMY/About?api_key=' + api_key;
 
@@ -24,3 +26,5 @@ function renderRecords(data) {
 }
 
 $.get(about_record, renderRecords);
+
+*/

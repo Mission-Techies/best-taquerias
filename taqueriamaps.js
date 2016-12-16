@@ -7,10 +7,36 @@ function initMap() {
           zoom: 13,
           center: sf
         });
-        
+        var places = [];
+        console.log(restaurant_record);
+   $.get(restaurant_record, function(data) {
+
+    console.log(data.records);
+    $(data.records).each(function(i, loc){  
+      //add latitude/longitude to locations
+      places[i] = {lat: parseFloat(loc.fields["Latitude"]), lng: parseFloat(loc.fields["Longitude"])};
+  	
+      //draw markers onto map
+      var marker = new google.maps.Marker({
+        position: places[i],
+        map: map
+      });
+      
+      //Draw labels onto markers
+      infowindow = new google.maps.InfoWindow();
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.setContent("<a href=\"detail.html?id=" + loc.id + "\">" + loc.fields["Name"] + "</a>");
+          infowindow.open(map, this);
+        });
+    }); 	 
+  });
+        /*
         var marker = new google.maps.Marker({
           position: sf,
           map: map
         });
-        
+        */
+      
   }
+  
+  
