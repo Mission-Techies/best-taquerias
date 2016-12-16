@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Dekko');
+
 body {
-  background: #113042 !important;
+  background: #113042;
   padding: ;
 }
 
@@ -13,7 +15,7 @@ body {
   height: 250px;
   margin: 1px 1px 1px 1px;
   float: left;
-  padding: ;
+  padding:;
   text-align: center;
   background-image: url('http://foundtheworld.com/wp-content/uploads/2016/08/San-Francisco-6.jpg');
   background-size: 100% 100%;
@@ -35,8 +37,8 @@ body {
 
 .tacoRestaurantsClass {
   /*background: red;
-	  border-style: solid;
-	    border-color: #ff0000 #0000ff;*/
+  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
   width: 20%;
   height: auto;
   margin: 0 0 0 0;
@@ -59,8 +61,8 @@ body {
 
 .tacoTrucksClass {
   /*background: green;
-	  border-style: solid;
-	    border-color: #ff0000 #0000ff;*/
+  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
   width: 20%;
   height: auto;
   margin: 0 0 0 0;
@@ -83,8 +85,8 @@ body {
 
 .tacoMapClass {
   /*background: green;
-	    border-style: solid;
-	    border-color: #ff0000 #0000ff;*/
+    border-style: solid;
+    border-color: #ff0000 #0000ff;*/
   width: 20%;
   height: auto;
   margin: 0 0 0 0;
@@ -102,13 +104,12 @@ body {
   margin-right: auto
 }
 
-
 /* Taquerias Rating */
 
 .taqueriasRatingClass {
   /*background: green;
-	  border-style: solid;
-	    border-color: #ff0000 #0000ff;*/
+  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
   width: 20%;
   height: auto;
   margin: 0 0 0 0;
@@ -131,8 +132,8 @@ body {
 
 .searchClass {
   /*background: green;
-	  border-style: solid;
-	    border-color: #ff0000 #0000ff;*/
+  border-style: solid;
+    border-color: #ff0000 #0000ff;*/
   width: 20%;
   height: auto;
   margin: 0 0 0 0;
@@ -150,48 +151,46 @@ body {
   margin-right: auto
 }
 
-.searchClass h1{
-	font-size: 250%;
-}
-
-.tacoRestaurantsClass h1{
-	font-size: 250%;
-}
-.tacoTrucksClass h1{
-	font-size: 250%;
-}
-.tacoMapClass h1{
-	font-size: 250%;
-}
-.taqueriasRatingClass h1{
-	font-size: 250%;
-}
-
 /* General content */
-/* Slideshow */
+
 .contentClass {
   /*background: brown;
-border-style: solid;
-border-color: green;*/
+  border-style: solid;
+  border-color: green;*/
+  text-align: left;
   width: 100%;
   height: auto;
   margin: 0 0 0 0;
   position: static;
   float: left;
+  text-align: ;
   text-decoration: none;
 }
-.mensaje{
+
+.truck {
+  list-style-type: none;
+  list-style: none;
+  width: ;
+  text-align: ;
   color: white;
-  font-family: 'Aref Ruqaa', serif;
-  text-align: center;
+  float: ;
 }
 
-/* essential styles:these make the slideshow work*/
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.contentClass img {
+  margin: ;
   width: 80%;
-  margin: auto;
+  height: 250px;
+  margin: 8% 0 0 0;
+  border: solid #B9D7FD;
+}
+li{
+  text-align: ;
+  float:left;
+  width: 50%;
+  height: auto;
+  font-family: 'Dekko', cursive;
+  font-size: 18px;
+  
 }
 
 
